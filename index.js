@@ -3,8 +3,8 @@ let score = 0;
 let hitRn;
 
 function increaseScore() {
-    score += 10;
     document.querySelector('.scoreVal').textContent = score;
+    score += 10;
 }
 
 document.querySelector(".pbtm").addEventListener("click", function (details) {
